@@ -1,0 +1,49 @@
+body {
+    background: url('https://s-media-cache-ak0.pinimg.com/originals/94/db/fe/94dbfe24cb90b6d66c791ba1f6f72bc5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.crazy {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD1o2It52bFl2pg3T9C11nknjeDJiIPKe-ArLkBM9dxqAe0iQa');
+    border-radius: 100px;
+    width: auto;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 500px;
+    padding-bottom: 60px;
+    -webkit-text-fill-color:lightcoral;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.hey {
+    text-align: center;
+    size: 50px;
+    font-family: 'Diplomata', cursive;
+    margin-top: 25px;
+    -webkit-text-fill-color: lightcoral;
+}
+html, body
+{
+  width:100%;
+  height:100%;
+  font-size:15px;
+ 
+}
+#toggle {
+    -webkit-text-fill-color: lightcoral;
+}
+p {
+    -webkit-text-fill-color: lightcoral;
+    font-size: 25px;
+}
