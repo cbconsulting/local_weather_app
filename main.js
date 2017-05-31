@@ -27,12 +27,12 @@ function reusable(weatherData, cel) {
 
 $(function () {
     var loc;
-    $.getJSON('https://ipinfo.io/json', function (f) {
+    $.getJSON('http://ipinfo.io/json', function (f) {
         console.log("where the data begins to assgin!");
         loc = f.loc.split(",");
         console.log(loc);
 
-        $.getJSON('https://api.openweathermap.org/data/2.5/weather?units=imperial&lat=' + loc[0] + '&lon=' + loc[1] + '&APPID=' + API_KEY, function (apiData) {
+        $.getJSON('http://api.openweathermap.org/data/2.5/weather?units=imperial&lat=' + loc[0] + '&lon=' + loc[1] + '&APPID=' + API_KEY, function (apiData) {
             weatherData = apiData;
 
             reusable(apiData, cel);
